@@ -1,0 +1,2 @@
+nixfmt:
+  alejandra flake.nix
