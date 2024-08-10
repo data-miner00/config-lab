@@ -12,7 +12,8 @@ let makeUser : Text -> Config = \(user : Text) ->
 
     in config
 
-let configs : List Config =
+-- I am using the same schema but defined in another file
+let configs : List ./schema.dhall =
     [ makeUser "Dan"
     , makeUser "Jimmy"
     ]
