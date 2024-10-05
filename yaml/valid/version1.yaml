@@ -1,0 +1,11 @@
+"profile":
+- "name": "Shaun Chong"
+  "address": &addr |
+    Melaka, Malaysia
+  "attrs":
+    - ["male", "weirdo"]
+    - {
+        "age": !!int 18,
+        "hobby": "vibing"
+      }
+  "ship-to": *addr

@@ -1,0 +1,14 @@
+%YAML 1.2
+%TAG ! tag:yaml.org,2022
+---
+name: Shaun Chong
+age: 18
+house: !!str null
+car: !str null
+...
+---
+name: Alice
+age: 18
+house: yes
+car: yes
+...

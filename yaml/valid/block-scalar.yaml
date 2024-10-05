@@ -1,0 +1,27 @@
+# quoted string
+address: "Melaka City,\nMalaysia."
+
+# Evaluates to: "Melaka City, Malaysia."
+address2:
+  Melaka City,
+  Malaysia.
+
+# Evaluates to: "Melaka City,\nMalaysia.\n"
+address3: |
+  Melaka City,
+  Malaysia.
+
+# Evaluates to: "Melaka City, Malaysia.\n"
+address4: >
+  Melaka City,
+  Malaysia.
+
+# Evaluates to: "Melaka City,\nMalaysia."
+address5: |-
+  Melaka City,
+  Malaysia.
+
+# Evaluates to: "Melaka City,\nMalaysia.\n\n"
+address6: |+
+  Melaka City,
+  Malaysia.

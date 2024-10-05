@@ -1,0 +1,13 @@
+profile:
+- name: Shaun Chong
+  address: >
+    Melaka city,
+    Malaysia
+  attrs:
+    - - male
+      - weirdo
+    - age: 18
+      hobby: vibing
+    ship-to: >
+      Melaka city,
+      Malaysia
