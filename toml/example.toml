@@ -1,0 +1,17 @@
+[profile]
+name = Shaun Chong
+age = 18
+address.city = Melaka
+address.country = "Malaysia"
+introduction = """
+Hello, \
+I am Shaun.\
+"""
+
+[[cars]]
+name = Honda City
+age = 3
+
+[[cars]]
+name = Lamborghini Urus
+age = -30
